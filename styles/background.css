@@ -1,0 +1,34 @@
+@layer utilities {
+  .bg-default {
+    @apply bg-violet1;
+    @apply dark:bg-violet13;
+  }
+
+  .bg-contrast {
+    @apply bg-mauve4;
+    @apply dark:bg-mauve12;
+  }
+
+  .bg-component {
+    @apply bg-violet3 bg-ahover;
+    @apply dark:bg-violet12;
+  }
+
+  .bg-component-action {
+    @apply bg-violet4 ahover:bg-violet5;
+    @apply dark:bg-violet13;
+  }
+
+  .bg-solid {
+    @apply bg-violet9 ahover:bg-violet10;
+  }
+
+  .bg-ahover {
+    @apply ahover:bg-violet4 dark:ahover:bg-violet12;
+  }
+
+  .bg-backdrop {
+    @apply bg-neutral-500 bg-opacity-50;
+    @apply dark:bg-neutral-500 dark:bg-opacity-50;
+  }
+}

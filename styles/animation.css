@@ -1,0 +1,69 @@
+@layer utilities {
+  .animate-opacity {
+    animation: opacity 150ms ease;
+  }
+
+  .animate-opacity-long {
+    animation: opacity 2000ms ease;
+  }
+
+  .animate-scale {
+    animation: scale 150ms ease;
+  }
+
+  .animate-slideup {
+    animation: slideup 150ms ease;
+  }
+
+  .animate-slidedown {
+    animation: slidedown 300ms ease;
+  }
+
+  .animate-slideright {
+    animation: slideright 300ms ease;
+  }
+
+  .animate-slideleft {
+    animation: slideleft 300ms ease;
+  }
+
+  .animate-opacity-scale {
+    animation: opacity 150ms ease, scale 150ms ease;
+  }
+
+  @keyframes opacity {
+    from {
+      opacity: 0%;
+    }
+  }
+
+  @keyframes scale {
+    from {
+      transform: scale(0%);
+    }
+  }
+
+  @keyframes slideup {
+    from {
+      transform: translateY(calc(100vh));
+    }
+  }
+
+  @keyframes slidedown {
+    from {
+      transform: translateY(calc(-1vh));
+    }
+  }
+
+  @keyframes slideright {
+    from {
+      transform: translateX(calc(100vh));
+    }
+  }
+
+  @keyframes slideleft {
+    from {
+      transform: translateX(calc(-100vh));
+    }
+  }
+}

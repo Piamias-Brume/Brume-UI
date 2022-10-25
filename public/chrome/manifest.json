@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Brume",
+  "description": "The private wallet",
+  "version": "0.1",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Brume",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "500": "test2.png"
+  }
+}
