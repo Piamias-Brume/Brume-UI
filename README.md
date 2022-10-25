@@ -1,4 +1,4 @@
-# Choco
+# Brume Wallet
 
 ## Getting started
 
